@@ -49,6 +49,33 @@ cmake-build-*/
 # IntelliJ
 out/
 
+
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
